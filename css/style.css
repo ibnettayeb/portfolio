@@ -36,6 +36,9 @@ a {
   width: 130rem;
   margin: 0 auto;
 }
+ul {
+  list-style: none;
+}
 .grid {
   display: grid;
   column-gap: 6.4rem;
@@ -46,6 +49,9 @@ a {
 }
 .grid--3--cols {
   grid-template-columns: repeat(3, 1fr);
+}
+.grid--5--cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 /* Header */
 .hearder {
@@ -175,4 +181,30 @@ a {
   height: 1px;
   margin-left: 1rem;
   background-color: var(--main-color);
+}
+
+.section-skills {
+  margin-top: 3.6rem;
+}
+.skills-heading {
+  margin-bottom: 2.4rem;
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+.skills {
+  gap: 3rem;
+}
+.skills li {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+}
+.skills li:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: var(--main-color);
+  display: inline-block;
+  margin-right: 1rem;
+  border-radius: 50%;
 }
