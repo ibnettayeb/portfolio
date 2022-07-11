@@ -1,0 +1,87 @@
+/***************************
+-- Below 1350px (Smaller Desktop)
+****************************/
+@media (max-width: 84em) {
+  .container {
+    max-width: 114rem;
+  }
+  .heading-primary {
+    font-size: 4.4rem;
+  }
+}
+/***************************
+-- Below 1200px (Landscap Tabblets)
+****************************/
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+  .container {
+    max-width: 90rem;
+  }
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+  .heading-name {
+    font-size: 3rem;
+  }
+  .about-image img {
+    width: 150%;
+  }
+  .project-img {
+    width: 100%;
+  }
+  .project-description {
+    font-size: 1.6rem;
+  }
+  .contact-content {
+    width: 100%;
+  }
+}
+
+/***************************
+-- Below 944px (Tabblets)
+****************************/
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 65rem;
+  }
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+  .about-image img {
+    width: 50%;
+  }
+  .project-img-area:nth-child(2) {
+    grid-row: 1;
+  }
+  .project-img-area:nth-child(6) {
+    grid-row: 5;
+  }
+  .project-img-area {
+    transform: translate(2.4rem);
+  }
+  .project-img {
+    width: 75%;
+  }
+}
+
+/***************************
+-- Below 544px (Mobile)
+****************************/
+
+@media (max-width: 34em) {
+}
+
+/* 
+    Spacing system in px:
+    2 / 4 / 8 / 12 / 16 / 20 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+    Font size in px:
+    10 / 12 / 14 / 16 / 18 /  20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
