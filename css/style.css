@@ -26,8 +26,7 @@ body {
   font-weight: 400;
   background-color: var(--bg-color);
   color: #e2e2e2;
-
-  height: 4000px;
+  border-left: 10px solid #122436;
 }
 a {
   text-decoration: none;
@@ -52,6 +51,9 @@ ul {
 }
 .grid--5--cols {
   grid-template-columns: repeat(5, 1fr);
+}
+.text-center {
+  text-align: center;
 }
 /* Header */
 .hearder {
@@ -148,6 +150,8 @@ ul {
 /* About section */
 .section-about {
   margin-top: 9.6rem;
+  background-color: #122436;
+  padding: 6.4rem 0;
 }
 .about {
   gap: 12.8rem;
@@ -173,15 +177,23 @@ ul {
   margin-bottom: 6.4rem;
   display: flex;
   align-items: center;
+  gap: 2rem;
+  transition: all 0.4s;
 }
+.heading-secondry::before,
 .heading-secondry::after {
   content: "";
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right: 0;
+  border-left: 12px solid var(--main-color);
+  border-radius: 3px;
   display: block;
-  position: relative;
-  width: 30rem;
-  height: 1px;
-  margin-left: 1rem;
-  background-color: var(--main-color);
+}
+.heading-secondry::after {
+  border-left: 0;
+  border-right: 12px solid var(--main-color);
 }
 
 .section-skills {
@@ -216,7 +228,7 @@ ul {
 .projects-container {
   display: flex;
   flex-direction: column;
-  gap: 9.6rem;
+  gap: 8rem;
 }
 .project {
   align-items: center;
@@ -317,6 +329,46 @@ ul {
 }
 .all-projects-link:hover {
   border-bottom: 1.5px solid var(--main-color);
+}
+
+.section-contact {
+  margin-top: 12.8rem;
+}
+.contact-content {
+  width: 50%;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+}
+.contact-heading {
+  justify-content: center;
+}
+.contact-discription {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+.send-message-btn:link,
+.send-message-btn:visited {
+  background-color: #122436;
+  color: var(--main-color);
+  padding: 1.2rem 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 100px;
+}
+.footer {
+  margin-top: 9.6rem;
+  text-align: center;
+  background-color: #122436;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 2.4rem;
+}
+.footer .name {
+  color: var(--main-color);
 }
 /* 
     Spacing system in px:
