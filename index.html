@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ibnettayeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <header class="hearder">
+    <header class="header">
       <div class="container">
         <nav class="nav">
           <div class="section-logo">
@@ -43,12 +55,18 @@
               </ul>
             </div>
           </div>
-          <ul class="menu">
-            <li><a class="main-link" href="#">Home</a></li>
-            <li><a class="main-link" href="#">Portfolio</a></li>
-            <li><a class="main-link" href="#">Contact</a></li>
-            <li><a class="main-link resume-btn" href="#">Resume</a></li>
-          </ul>
+          <div class="main-menu">
+            <ul class="menu">
+              <li><a class="main-link" href="#">Home</a></li>
+              <li><a class="main-link" href="#">Portfolio</a></li>
+              <li><a class="main-link" href="#">Contact</a></li>
+              <li><a class="main-link resume-btn" href="#">Resume</a></li>
+            </ul>
+          </div>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+          </button>
         </nav>
       </div>
       <section class="section-hero">
@@ -256,6 +274,7 @@
       </div>
     </footer>
 
+    <script src="js/script.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
