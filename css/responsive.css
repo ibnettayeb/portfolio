@@ -132,16 +132,17 @@
     font-size: 2.4rem;
   }
   .hero p {
-    width: 100%;
+    font-size: 1.6rem;
   }
-  .grid--5--cols {
+  .grid--4--cols {
     grid-template-columns: repeat(3, 1fr);
   }
   .about-image img {
     width: 70%;
   }
   .footer {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
+    line-height: 1.8;
   }
 }
 
