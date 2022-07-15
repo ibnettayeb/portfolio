@@ -118,12 +118,21 @@
 ****************************/
 
 @media (max-width: 34em) {
+  html {
+    font-size: 50%;
+  }
   .container,
   .hero {
     padding: 0 3.2rem;
   }
   .hero p {
     width: 100%;
+  }
+  .grid--5--cols {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .about-image img {
+    width: 70%;
   }
 }
 
