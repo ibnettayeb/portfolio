@@ -140,6 +140,9 @@
   .about-image img {
     width: 70%;
   }
+  .footer {
+    font-size: 1.2rem;
+  }
 }
 
 /* 
