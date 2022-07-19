@@ -406,3 +406,9 @@ ul {
     Font size in px:
     10 / 12 / 14 / 16 / 18 /  20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 */
+
+.coming-soon {
+  font-size: 3rem;
+  text-align: center;
+  padding: 5rem 0;
+}
