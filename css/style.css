@@ -284,6 +284,26 @@ ul {
 .project-info {
   padding: 1.2rem;
 }
+.project-info .tools {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2.4rem;
+}
+.project-info .tools li {
+  width: 4rem;
+  height: 4rem;
+  background-color: #0e1d2c;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-info .tools li ion-icon {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--main-color);
+}
 .project-info p {
   font-size: 1.6rem;
   margin-bottom: 2rem;
@@ -313,6 +333,7 @@ ul {
 .project-info .source a:visited {
   font-size: 1.5rem;
 }
+
 /************ Start Contact ***************/
 .section-contact {
   margin-top: 20rem;
