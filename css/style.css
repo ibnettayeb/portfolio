@@ -248,116 +248,72 @@ ul {
   margin-right: 1rem;
   border-radius: 50%;
 }
+/************ Start Project ***************/
 
 .section-projects {
   margin-top: 12.8rem;
 }
 .projects-container {
-  display: flex;
-  flex-direction: column;
-  gap: 8rem;
-}
-.project {
-  align-items: center;
-}
-.project-info {
-  background-color: var(--main-color);
-  color: var(--bg-color);
-  border-radius: 0.9rem;
-  padding: 3.6rem 4.8rem;
-  position: relative;
-}
-.project-name {
-  position: absolute;
-  top: -2rem;
-  left: 2.4rem;
-  font-size: 1.8rem;
-  background: #fff;
-  padding: 1.2rem 2.4rem;
-  border-radius: 0.5rem;
-  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.25);
-  text-transform: capitalize;
-}
-.project-description {
-  font-size: 1.8rem;
-  line-height: 1.6;
-  font-weight: 500;
-}
-
-.project-footer {
-  margin-top: 2.4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.project-tech-used,
-.project-links {
-  display: flex;
   gap: 2.4rem;
 }
-.project-tech-used li {
-  font-size: 1.2rem;
-  background-color: #1a3550;
-  color: #fff;
-  padding: 1rem 1.6rem;
-  border-radius: 100px;
-}
-.project-links a:link,
-.project-links a:visited {
-  color: #1a3550;
-}
-.project-links .link {
-  font-size: 2.4rem;
-  cursor: pointer;
-}
-.project-img-area {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.project {
+  background-color: #122436;
+  border-radius: 6px;
   position: relative;
 }
-.project-img-area::after {
-  content: "";
-  width: 70%;
-  padding-bottom: 70%;
-  background-color: #1a3550;
-  border-radius: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -2;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
-}
-.project-img-area::before {
-  content: "";
-  width: 50%;
-  padding-bottom: 50%;
-  background-color: #294f75;
-  border-radius: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: -1;
-  opacity: 0.5;
-  box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.1);
+.project img {
+  width: 100%;
+  border-radius: 6px 6px 0 0;
 }
 .project-img {
-  width: 75%;
+  width: 100%;
 }
-.all-projects {
-  text-align: center;
+.project-img .project-name {
+  background: var(--main-color);
+  color: var(--bg-color);
+  padding: 1rem 2.4rem;
+  border-radius: 6px;
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem;
+  width: fit-content;
+  box-shadow: 0 20px 30px 0 rgb(0 0 0 / 50%);
 }
-.all-projects-link:link,
-.all-projects-link:visited {
+.project-info {
+  padding: 1.2rem;
+}
+.project-info p {
   font-size: 1.6rem;
-  color: var(--main-color);
+  margin-bottom: 2rem;
+  line-height: 1.6;
 }
-.all-projects-link:hover {
-  border-bottom: 1.5px solid var(--main-color);
+.project-info .links {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4.5rem;
+  border-top: 2px solid #0e1d2c;
+}
+.project-info svg {
+  width: 2.6rem;
+  height: 2.6rem;
 }
 
+.project-info .links a:link,
+.project-info .links a:visited {
+  font-size: 2.5rem;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.project-info .source a:link,
+.project-info .source a:visited {
+  font-size: 1.5rem;
+}
+/************ Start Contact ***************/
 .section-contact {
   margin-top: 20rem;
   margin-bottom: 20rem;

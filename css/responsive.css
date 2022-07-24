@@ -29,12 +29,6 @@
   .about-image img {
     width: 150%;
   }
-  .project-img {
-    width: 100%;
-  }
-  .project-description {
-    font-size: 1.6rem;
-  }
   .contact-content {
     width: 100%;
   }
@@ -61,18 +55,6 @@
   }
   .about-image img {
     width: 50%;
-  }
-  .project-img-area:nth-child(2) {
-    grid-row: 1;
-  }
-  .project-img-area:nth-child(6) {
-    grid-row: 5;
-  }
-  .project-img-area {
-    transform: translate(2.4rem);
-  }
-  .project-img {
-    width: 75%;
   }
   .main-menu {
     background-color: var(--bg-color);
@@ -136,6 +118,9 @@
   }
   .grid--4--cols {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .grid--3--cols {
+    grid-template-columns: 1fr;
   }
   .about-image img {
     width: 70%;
