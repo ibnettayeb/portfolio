@@ -20,5 +20,5 @@ You can check out the live demo of my portfolio [here](https://ibnettayeb.com).
 ## Contact
 
 - **Email:** contact@ibnettayeb.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/ibnettayeb)
-- **GitHub:** [Your GitHub Profile](https://github.com/ibnettayeb)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/ibnettayeb)
+- **GitHub:** [GitHub Profile](https://github.com/ibnettayeb)
