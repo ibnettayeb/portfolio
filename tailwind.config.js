@@ -2,7 +2,20 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#FFD967",
+        bg: {
+          100: "#121B30",
+          200: "#353F4F",
+          300: "#0F172A",
+        },
+      },
+      fontFamily: {
+        syncopate: "Syncopate",
+        sora: "Sora",
+      },
+    },
   },
   plugins: [],
 };
