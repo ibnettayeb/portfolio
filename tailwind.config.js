@@ -10,6 +10,7 @@ export default {
           200: "#353F4F",
           300: "#0F172A",
         },
+        whiteColor: "#fff",
       },
       fontFamily: {
         syncopate: "Syncopate",
