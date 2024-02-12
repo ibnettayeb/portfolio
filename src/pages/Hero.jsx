@@ -11,7 +11,7 @@ function Hero() {
         <h2 className="font-syncopate text-xl tracking-[1.24em] text-center">
           {job}
         </h2>
-        <p className="text-base font-extralight mt-8 text-center w-[85%] m-auto">
+        <p className="text-base font-extralight mt-8 text-center  w-[85%] m-auto">
           {shortDesc}
         </p>
         <Marquee
