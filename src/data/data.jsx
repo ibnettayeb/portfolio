@@ -36,21 +36,17 @@ export const skills = [
 
 export const timeline = [
   {
-    year: "February 2020",
-    title: "job title",
-    description: "some information here about this year",
-    skills: ["html and css", "css", "python"],
+    year: "2018",
+    title: "Start learning programming",
+    description:
+      "This year I discovered the world of programming by chance via YouTube",
+    skills: ["Html", "Css", "JavaScript"],
   },
   {
-    year: "February 2021",
-    title: "job title",
-    description: "some information here about this year",
-    skills: ["html", "css", "python"],
-  },
-  {
-    year: "February 2022",
-    title: "job title",
-    description: "some information here about this year",
-    skills: ["html", "css", "python"],
+    year: "2020",
+    title: "Computer science major",
+    description:
+      "After obtaining my baccalaureate, I chose to major in computer science",
+    skills: ["JavaScript", "C/C++", "Java", "Data Structure"],
   },
 ];
